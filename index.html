@@ -2,10 +2,43 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="master.css" media="screen" title="no title" charset="utf-8">
-    <title>Hello</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.2.0/material.red-green.min.css">
+    <script defer src="https://code.getmdl.io/1.2.0/material.min.js"></script>
+    <title>Juan De Jesus | Web</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+                mdl-layout--fixed-tabs">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Juan De Jesus</span>
+        </div>
+        <!-- Tabs -->
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+          <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
+          <a href="#fixed-tab-2" class="mdl-layout__tab">Tab 2</a>
+          <a href="#fixed-tab-3" class="mdl-layout__tab">Tab 3</a>
+          <a href="#fixed-tab-4" class="mdl-layout__tab">Tab 4</a>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+          <div class="page-content"><!-- Your content goes here --></div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+          <div class="page-content"><!-- Your content goes here --></div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+          <div class="page-content"><!-- Your content goes here --></div>
+        </section>
+        <section class="mdl-layout__tab-panel" id="fixed-tab-4">
+          <div class="page-content"><!-- Your content goes here --></div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
