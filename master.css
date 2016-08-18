@@ -1,0 +1,13 @@
+.cell-heading{
+  font-size: 2em;
+  text-align: left;
+  opacity: 0.60;
+  margin: 15px;
+}
+
+.cell-content-text{
+  font-size: 1.35em;
+  text-align: justify;
+  opacity: 0.60;
+  margin: 15px;
+}
