@@ -1,13 +1,15 @@
-.cell-heading{
-  font-size: 2em;
-  text-align: left;
-  opacity: 0.60;
-  margin: 15px;
+body {
+  background-color: #454545;
 }
 
-.cell-content-text{
-  font-size: 1.35em;
-  text-align: justify;
-  opacity: 0.60;
-  margin: 15px;
+.card{
+  background-color: #212121;
+}
+
+.mdl-card__title-text a {
+  text-decoration: none;
+}
+
+.mdl-card__supporting-text a {
+  text-decoration: none;
 }
