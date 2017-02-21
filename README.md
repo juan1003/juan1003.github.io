@@ -1,1 +1,18 @@
-# juan1003.github.io
+# Website 
+### <https://juan1003.github.io>
+
+# Full stack software developer
+- Python
+- Node
+- React
+- C#
+
+# Projects
+- [Moonbeam Technologies Website](moonbeam-technologies.herokuapp.com)
+- [How To Perl Website](how-to-perl.herokuapp.com)
+
+# Contributors
+- [Giovanni Orlando](https://github.com/giovanni0918/)
+
+# License
+### [MIT License](https://mit-license.org/)
