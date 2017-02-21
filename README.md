@@ -8,8 +8,8 @@
 - C#
 
 # Projects
-- [Moonbeam Technologies Website](moonbeam-technologies.herokuapp.com)
-- [How To Perl Website](how-to-perl.herokuapp.com)
+- [Moonbeam Technologies Website](https://moonbeam-technologies.herokuapp.com)
+- [How To Perl Website](https://how-to-perl.herokuapp.com)
 
 # Contributors
 - [Giovanni Orlando](https://github.com/giovanni0918/)
