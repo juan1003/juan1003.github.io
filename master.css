@@ -16,13 +16,17 @@ body {
 
 /* Added by Giova in favor of accessibility */
 
+.mdl-layout__tab { 
+  color: black; 
+}
+
 .mdl-layout__tab.is-active { 
   color: black; 
   font-weight: bold; 
 } 
 
-.mdl-layout__tab { 
-  color: black; 
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active {
+  color: black;
 }
 
 .mdl-card__supporting-text {
