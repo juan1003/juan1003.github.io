@@ -16,7 +16,7 @@ body {
 
 /* Added by Giova in favor of accessibility */
 
-.mdl-layout__tab .is-active { 
+.mdl-layout__tab.is-active { 
   color: black; 
   font-weight: bold; 
 } 
