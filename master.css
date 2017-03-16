@@ -33,3 +33,16 @@ body {
   /* Up from 1rem */
   font-size: 1.125rem; 
 }
+.mdl-layout__header-row {
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+.mdl-layout__header-row span {
+  color:black;
+}
+.mdl-layout--fixed-tabs .mdl-layout__tab-bar {
+  /* Tab bar should wrap around the tabs */
+  height: auto;
+}
