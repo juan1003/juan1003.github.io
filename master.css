@@ -98,41 +98,6 @@ img {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .contact-card {
   text-align: center;
 }
-=======
-/* Added by Giova in favor of accessibility */
-
-.mdl-layout__tab { 
-  color: black; 
-}
-
-.mdl-layout__tab.is-active { 
-  color: black; 
-  font-weight: bold; 
-} 
-
-.mdl-layout.is-upgraded .mdl-layout__tab.is-active {
-  color: black;
-}
-
-.mdl-card__supporting-text {
-  /* Up from 1rem */
-  font-size: 1.125rem; 
-}
-.mdl-layout__header-row {
-  width: 100%;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
-}
-.mdl-layout__header-row span {
-  color:black;
-}
-.mdl-layout--fixed-tabs .mdl-layout__tab-bar {
-  /* Tab bar should wrap around the tabs */
-  height: auto;
-}
->>>>>>> d5aecb747eea29e83dc9849ddd04b620129f20a9
