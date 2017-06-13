@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/App.vue"],"names":[],"mappings":"AACA,KACE,QAAU,CAEZ,KACE,eAAiB","file":"static/css/app.a96221c594888c6e293a4eae04d595c4.css","sourcesContent":["\nbody {\n  margin: 0;\n}\nmain {\n  margin-top: 80px;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/App.vue"],"sourceRoot":""}
