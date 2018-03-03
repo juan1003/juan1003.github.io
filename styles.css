@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2.5em;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 1.3em;
+    color: rgba(0,0,0,0.5);
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.4em;
+    color: #4CD4B0;
+}
+
+p {
+    padding: 15px 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.23);
+    min-height: 20vh;
+}
+
+footer span {
+    color: white;
+    font-size: 1.2em;
+}
+
+hr {
+    width: 90%;
+    opacity: 0.60;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 45px;
+    background-color: #4CD4B0;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 1.2em;
+    font-size: 0.90em;
+}
+
+.content {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.column-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 40vh;
+    width: 100%;
+}
+
+.row-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.list-item {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.btn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 40px;
+    min-width: 120px;
+    border-radius: 10px;
+    background-color: #4CD4B0;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 1px solid #4CD4B0;
+    background-color: white;
+    color: #4CD4B0;
+}
+
+#presentation {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    width: 100%
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        padding: 0 5%;
+    }
+    .row-section {
+        flex-direction: column;
+    }
+}
