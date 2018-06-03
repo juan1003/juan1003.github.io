@@ -39,7 +39,7 @@ h2 {
 
 h4 {
     font-size: 1.4em;
-    color: #4CD4B0;
+    color: #e34234;
 }
 
 p {
@@ -51,8 +51,8 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0,0,0,0.23);
-    min-height: 20vh;
+    background-color: #e34234;
+    min-height: 10vh;
 }
 
 footer span {
@@ -71,7 +71,7 @@ hr {
     justify-content: flex-end;
     align-items: center;
     height: 45px;
-    background-color: #4CD4B0;
+    background-color: #e34234;
     width: 100%;
 }
 
@@ -132,16 +132,16 @@ hr {
     text-decoration: none;
     color: white;
     height: 40px;
-    min-width: 120px;
+    min-width: 140px;
     border-radius: 10px;
-    background-color: #4CD4B0;
+    background-color: #e34234;
 }
 
 .btn:hover,
 .btn:focus {
-    border: 1px solid #4CD4B0;
+    border: 1px solid #e34234;
     background-color: white;
-    color: #4CD4B0;
+    color: #e34234;
 }
 
 #presentation {
