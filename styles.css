@@ -39,7 +39,7 @@ h2 {
 
 h4 {
     font-size: 1.4em;
-    color: #e34234;
+    color: #212121;
 }
 
 p {
@@ -51,7 +51,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #e34234;
+    background-color: #212121;
     min-height: 10vh;
 }
 
@@ -71,7 +71,7 @@ hr {
     justify-content: flex-end;
     align-items: center;
     height: 45px;
-    background-color: #e34234;
+    background-color: #212121;
     width: 100%;
 }
 
@@ -134,14 +134,14 @@ hr {
     height: 40px;
     min-width: 140px;
     border-radius: 10px;
-    background-color: #e34234;
+    background-color: #212121;
 }
 
 .btn:hover,
 .btn:focus {
-    border: 1px solid #e34234;
+    border: 1px solid #212121;
     background-color: white;
-    color: #e34234;
+    color: #212121;
 }
 
 #presentation {
