@@ -40,7 +40,7 @@ h2 {
 
 h4 {
     font-size: 1.4em;
-    color: #0078B3;
+    color: #27CB8F;
 }
 
 p {
@@ -52,7 +52,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #0078B3;
+    background-color: #27CB8F;
     min-height: 10vh;
 }
 
@@ -71,7 +71,7 @@ hr {
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
-    background-color: #0078B3;
+    background-color: #27CB8F;
     width: 100%;
     box-shadow: 0 2px 4px 2px rgba(0,0,0,0.24);
     position: fixed;
@@ -125,7 +125,7 @@ hr {
     align-items: flex-start;
     width: 100%;
     padding: 15px;
-    border-left: 5px solid #0078B3;
+    border-left: 5px solid #27CB8F;
     margin-bottom: 20px;
     box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.14);
 }
@@ -140,14 +140,14 @@ hr {
     height: 40px;
     min-width: 140px;
     border-radius: 5px;
-    background-color: #0078B3;
+    background-color: #27CB8F;
 }
 
 .btn:hover,
 .btn:focus {
-    border: 1px solid #0078B3;
+    border: 1px solid #27CB8F;
     background-color: white;
-    color: #0078B3;
+    color: #27CB8F;
 }
 
 #presentation {
