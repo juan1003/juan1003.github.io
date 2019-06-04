@@ -4,22 +4,9 @@
     listInit();
 })();
 
-function getRepos() {
-    const data = fetch('https://api.github.com/users/juan1003/repos')
-    .then(response => {
-        return response.json();
-    })
-    .then(repos => {
-        const repositories = [];
-        repos.map(repo => {
-            repositories.push({name: repo.name, uri: repo.html_url, description: repo.description});
-        });
-        return repositories;
-    })
-    .catch(err => {
-        console.error(err);
-    });
-
+async function getRepos() {
+    const response = await fetch('https://api.github.com/users/juan1003/repos');
+    const data = response.json();
     return data;
 }
 
