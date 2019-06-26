@@ -1,0 +1,23 @@
+{
+  "name": "juan1003.github.io",
+  "version": "1.0.0",
+  "description": "- Python\r - Node\r - React\r - C#\r - Vue\r - React Native",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan1003/juan1003.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juan1003/juan1003.github.io/issues"
+  },
+  "homepage": "https://github.com/juan1003/juan1003.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
