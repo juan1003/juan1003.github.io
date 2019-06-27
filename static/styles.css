@@ -20,31 +20,35 @@ time, mark, audio, video {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    background-color: #232323;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px;
+}
+
 img {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border-radius: 50%;
 }
 
 h1 {
-    font-size: 2.5em;
-    padding: 5px;
+    font-size: 2em;
 }
 
 h2 {
     font-size: 1.8em;
-    color: rgba(0,0,0,0.5);
+    color: rgba(95, 153, 194, 0.8);
     font-weight: 600;
-    padding: 20px;
 }
 
 h4 {
     font-size: 1.4em;
-    color: #27CB8F;
-}
-
-p {
-    padding: 15px 0;
+    color: rgb(95, 153, 194);
 }
 
 footer {
@@ -52,7 +56,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: #27CB8F;
+    background-color: rgb(95, 153, 194);
     min-height: 10vh;
 }
 
@@ -66,12 +70,36 @@ hr {
     opacity: 0.60;
 }
 
+.card {
+    background-color: #454545;
+    min-height: 300px;
+    box-shadow: rgba(0,0,0,0.24);
+}
+
+.card-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(95, 153, 194);
+    height: 70px;
+    padding: 0 10px;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    padding: 10px;
+}
+
 .navbar {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
-    background-color: #27CB8F;
+    background-color: rgb(95, 153, 194);
     width: 100%;
     box-shadow: 0 2px 4px 2px rgba(0,0,0,0.24);
     position: fixed;
@@ -86,49 +114,24 @@ hr {
 }
 
 .nav-link {
-    color: white;
     text-decoration: none;
     padding: 1.5em;
     font-size: 0.90em;
+    color: white;
 }
 
-.content {
-    display: flex;
-    flex-flow: column nowrap;
-    flex: 1;
-    justify-content: space-around;
-    align-items: center;
-    padding: 70px 10%;
-}
+.item-1 {grid-area: experience;}
+.item-2 {grid-area: github;}
+.item-3 {grid-area: tiers;}
 
-.column-section {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 40vh;
-    width: 100%;
-}
-
-.row-section {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.list-item {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-    padding: 15px;
-    border-left: 5px solid #27CB8F;
-    margin-bottom: 20px;
-    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.14);
-}
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        'experience github'
+        'tiers tiers';
+    padding: 50px;
+    grid-gap: 10px;
+  }
 
 .btn {
     display: flex;
@@ -140,33 +143,63 @@ hr {
     height: 40px;
     min-width: 140px;
     border-radius: 5px;
-    background-color: #27CB8F;
+    background-color: rgb(95, 153, 194);
 }
 
 .btn:hover,
 .btn:focus {
-    border: 1px solid #27CB8F;
+    border: 1px solid rgb(95, 153, 194);
     background-color: white;
-    color: #27CB8F;
+    color: rgb(95, 153, 194);
 }
 
-#presentation {
+#banner {
+    background-image: url('developer.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 100%;
+}
+
+.overlay {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
-    width: 100%
+    height: 500px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+#repo-link {
+    color: rgb(95, 153, 194);
+    text-decoration: none;
+}
+
+#repo-link:hover,
+#repo-link:focus {
+    color: white;
+    text-decoration: line-through;
+}
+
+p {
+    padding: 10px;
+    font-size: 16px;
 }
 
 @media screen and (max-width: 768px) {
     h2 {
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
-    .content {
-        padding: 75px 8%;
-    }
-    .row-section {
-        flex-direction: column;
-    }
+    .grid-container {
+        display: grid;
+        grid-template-areas: 
+            'experience'
+            'github'
+            'tiers';
+        padding: 10px;
+        grid-gap: 10px;
+      }
+      .overlay {
+          padding: 10px;
+      }
 }

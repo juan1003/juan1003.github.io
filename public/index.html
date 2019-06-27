@@ -20,48 +20,44 @@
     </nav>
   </header>
 
-  <main class="content">
+  <div id="banner">
+    <div class="overlay">
+        <img src="Me.jpg" alt="Me">
+        <h1>Juan De Jesus</h1>
+        <h2>Software Engineer @ Qinetix Group LLC.</h2>
+    </div>
+  </div>
 
-    <section id="presentation">
-      <img src="Me.jpg" alt="Me">
-      <h1>Juan De Jesus</h1>
-      <h2>Software Engineer @ Qinetix Group LLC.</h2>
+  <main class="grid-container">
+
+   <section class="item-1 card" id="experience">
+     <div class="card-header">
+       <h2 class="card-title">Experience</h2>
+     </div>
+     <div class="card-text">
+       <ul id="job-list"></ul>
+     </div>
+   </section>
+
+   <section class="item-2 card" id="github-repos">
+      <div class="card-header">
+        <h2 class="card-title">Github Repos</h2>
+      </div>
+      <div class="card-text">
+        <ul id="repo-list"></ul>
+      </div>
     </section>
 
-    <hr>
-
-    <div class="column-section">
-      <h2>Where I worked</h2>
-      <section class="row-section">
-          <div class="list-item">
-              <h4>Qinetix Group LLC. | April 2018 - Present</h4>
-              <p>Full stack developer using Symfony framework.</p>
-            </div>
-        <div class="list-item">
-          <h4>BeaconMD | April 2017 - February 2018</h4>
-          <p>Full stack developer. Responsible for the development of the Agordia Platform using React Native and Node JS.</p>
-        </div>
-        <div class="list-item">
-          <h4>AON Hewitt | July 2016 - January 2017</h4>
-          <p>Software developer. Backend developer, mostly on SQL Server and C#.</p>
-        </div>
-      </section>
-    </div>
-
-    <hr>
-
-    <div class="column-section">
-      <h2>Github Repos</h2>
-      <section class="row-section" id="repo-list"></section>
-    </div>
+    <section class="item-3 card" id="tiers">
+      <div class="card-header">
+        <h2 class="card-title">Tiers</h2>
+      </div>
+      <div class="card-text">
+        <ul id="tierlist"></ul>
+      </div>
+    </section>
 
   </main>
-
-  <footer>
-    <span>
-      &copy; Copyright 2015, <script>document.write(new Date().getFullYear())</script> - Juan De Jesus
-    </span>
-  </footer>
 
   <script src="app.js"></script>
 
