@@ -14,12 +14,12 @@ async function getRepos() {
 async function repositoryListInit() {
     const repositories = await getRepos();
 
-    repos.map(repo => {
+    repositories.map(repo => {
         const listItem = document.createElement('li');
         listItem.innerHTML = `<h4><a id="repo-link" href="${repo.html_url}" target="blank">${repo.name}</a></h4>
                               <p>${repo.description}</p>`
 
-        document.querySelector('#repo-list').appendChild(repositories)
+        document.querySelector('#repo-list').appendChild(listItem)
     })
 }
 
