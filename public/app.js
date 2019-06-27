@@ -3,6 +3,7 @@
 
     jobLististInit()
     repositoryListInit()
+    renderContactInfo()
 })()
 
 async function getRepos() {
@@ -31,10 +32,26 @@ function jobLististInit() {
     ]
 
     experience.map(job => {
-        const listItem = document.createElement('li');
+        const listItem = document.createElement('li')
         listItem.innerHTML = `<h4>${job.title}</h4>
                               <p>${job.company} | ${job.from} - ${job.until} | ${job.location}</p>`
         
         document.querySelector('#job-list').appendChild(listItem)
+    })
+}
+
+function renderContactInfo() {
+    const tierlist = [
+        {media: "Twitter", url: "https://twitter.com/jdejesus93"},
+        {media: "Github", url: "https://github.com/juan1003"},
+        {media: "LinkedIn", url: "https://linkedin.com/in/juan-de-jesus-torres-04662213b/"},
+        {media: "Email Me!", url: "mailto:jdejesus93@gmail.com"}
+    ]
+
+    tierlist.map(contact => {
+        const listItem = document.createElement('li')
+        listItem.innerHTML = `<h4><a href="${contact.url}">${contact.media}</a></h4>`
+
+        document.querySelector('#contact-info').appendChild(listItem)
     })
 }
