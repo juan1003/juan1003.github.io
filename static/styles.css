@@ -46,23 +46,15 @@ h2 {
     font-weight: 600;
 }
 
+h3 {
+    font-size: 1.35em;
+    padding: 20px;
+    text-align: justify;
+}
+
 h4 {
     font-size: 1.4em;
     color: rgb(95, 153, 194);
-}
-
-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(95, 153, 194);
-    min-height: 10vh;
-}
-
-footer span {
-    color: white;
-    font-size: 1.2em;
 }
 
 hr {
@@ -94,57 +86,19 @@ hr {
     padding: 10px;
 }
 
-.navbar {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: rgb(95, 153, 194);
-    width: 100%;
-    box-shadow: 0 2px 4px 2px rgba(0,0,0,0.24);
-    position: fixed;
-    z-index: 2;
-}
-
-.navigation {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-link {
-    text-decoration: none;
-    padding: 1.5em;
-    font-size: 0.90em;
-    color: white;
-}
-
 .item-1 {grid-area: experience;}
 .item-2 {grid-area: github;}
-.item-3 {grid-area: tiers;}
+.item-3 {grid-area: contact;}
+.item-4 {grid-area: hello;}
 
 .grid-container {
     display: grid;
     grid-template-areas: 
-        'experience github'
-        'tiers tiers';
+        'hello hello hello'
+        'experience github contact';
     padding: 50px;
     grid-gap: 10px;
   }
-
-.btn {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    height: 40px;
-    min-width: 140px;
-    border-radius: 5px;
-    background-color: rgb(95, 153, 194);
-}
 
 .btn:hover,
 .btn:focus {
@@ -170,13 +124,13 @@ hr {
     background-color: rgba(0,0,0,0.7);
 }
 
-#repo-link {
+a {
     color: rgb(95, 153, 194);
     text-decoration: none;
 }
 
-#repo-link:hover,
-#repo-link:focus {
+a:hover,
+a:focus {
     color: white;
     text-decoration: line-through;
 }
@@ -193,9 +147,10 @@ p {
     .grid-container {
         display: grid;
         grid-template-areas: 
+            'hello'
             'experience'
             'github'
-            'tiers';
+            'contact';
         padding: 10px;
         grid-gap: 10px;
       }
