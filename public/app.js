@@ -19,7 +19,7 @@ async function repositoryListInit() {
         listItem.innerHTML = `<h4><a id="repo-link" href="${repo.html_url}" target="blank">${repo.name}</a></h4>
                               <p>${repo.description}</p>`
 
-        document.querySelector('#repo-list').appendChild(listItem)
+        document.querySelector('#repo-list').appendChild(repositories)
     })
 }
 
