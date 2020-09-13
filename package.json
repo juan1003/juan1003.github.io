@@ -1,0 +1,22 @@
+{
+  "name": "juan1003.github.io",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan1003/juan1003.github.io.git"
+  },
+  "author": "Juan G. De Jesus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juan1003/juan1003.github.io/issues"
+  },
+  "homepage": "https://github.com/juan1003/juan1003.github.io#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
