@@ -44,3 +44,15 @@ header span {
 .card-body {
     font-size: 1.22rem;
 }
+
+#repo-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.repository {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
